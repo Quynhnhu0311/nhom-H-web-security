@@ -2,10 +2,10 @@
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Oct 18, 2022 at 07:35 AM
--- Server version: 10.4.19-MariaDB
--- PHP Version: 7.4.20
+-- Máy chủ: 127.0.0.1
+-- Thời gian đã tạo: Th10 20, 2022 lúc 01:04 AM
+-- Phiên bản máy phục vụ: 10.4.19-MariaDB
+-- Phiên bản PHP: 8.0.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `app_web1`
+-- Cơ sở dữ liệu: `app_web1`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `banks`
+-- Cấu trúc bảng cho bảng `banks`
 --
 
 CREATE TABLE `banks` (
@@ -36,7 +36,7 @@ CREATE TABLE `banks` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `post`
+-- Cấu trúc bảng cho bảng `post`
 --
 
 CREATE TABLE `post` (
@@ -48,17 +48,17 @@ CREATE TABLE `post` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `post`
+-- Đang đổ dữ liệu cho bảng `post`
 --
 
 INSERT INTO `post` (`post_id`, `post_url`, `post_title`, `post_description`, `token`) VALUES
-(2, 'https://vnexpress.net/brazil-gianh-ve-world-cup-som-nam-vong-4384705.html', 'Brazil giành vé World Cup sớm năm vòng', NULL, '4ca82b2a861f70cd15d83085b000dbde'),
-(6, 'https://vnexpress.net/quang-hai-var-da-tiep-them-dong-luc-cho-viet-nam-4384613.html', 'Quang Hải: ‘VAR đã tiếp thêm động lực cho Việt Nam’', NULL, '7dd11ae2d5ed34925bdbdc9b01866349'),
-(8, 'https://vnexpress.net/ronaldo-tit-ngoi-khi-bo-dao-nha-hoa-ireland-4384672.html', 'Ronaldo tịt ngòi khi Bồ Đào Nha hòa Ireland', NULL, '7dd11ae2d5ed34925bdbdc9b01866349'),
-(9, 'https://vnexpress.net/cdv-sat-canh-cung-tuyen-viet-nam-4384633.html', 'CĐV sát cánh cùng tuyển Việt Nam', NULL, '4ca82b2a861f70cd15d83085b000dbde'),
-(10, 'https://vnexpress.net/vi-sao-var-tu-choi-ban-thang-cua-nhat-ban-4384603.html', 'Vì sao VAR từ chối bàn thắng của Nhật Bản?', NULL, '0'),
-(11, 'https://vnexpress.net/trung-quoc-vs-oman-4384433-tong-thuat.html', 'Trung Quốc vuột chiến thắng', NULL, '0'),
-(12, 'https://vnexpress.net/gerrard-dan-dat-aston-villa-4382874.html', 'Gerrard dẫn dắt Aston Villa', NULL, '0'),
+(2, 'https://vnexpress.net/brazil-gianh-ve-world-cup-som-nam-vong-4384705.html', 'Brazil giành vé World Cup sớm năm vòng', NULL, '86450167edd1be996127491b0057db7a'),
+(6, 'https://vnexpress.net/quang-hai-var-da-tiep-them-dong-luc-cho-viet-nam-4384613.html', 'Quang Hải: ‘VAR đã tiếp thêm động lực cho Việt Nam’', NULL, 'e6a8269e10c3a3273a76a7bee65c8134'),
+(8, 'https://vnexpress.net/ronaldo-tit-ngoi-khi-bo-dao-nha-hoa-ireland-4384672.html', 'Ronaldo tịt ngòi khi Bồ Đào Nha hòa Ireland', NULL, 'e6a8269e10c3a3273a76a7bee65c8134'),
+(9, 'https://vnexpress.net/cdv-sat-canh-cung-tuyen-viet-nam-4384633.html', 'CĐV sát cánh cùng tuyển Việt Nam', NULL, '86450167edd1be996127491b0057db7a'),
+(10, 'https://vnexpress.net/vi-sao-var-tu-choi-ban-thang-cua-nhat-ban-4384603.html', 'Vì sao VAR từ chối bàn thắng của Nhật Bản?', NULL, '870d7cf322e22ada6229f3bcab4ecdfd'),
+(11, 'https://vnexpress.net/trung-quoc-vs-oman-4384433-tong-thuat.html', 'Trung Quốc vuột chiến thắng', NULL, '870d7cf322e22ada6229f3bcab4ecdfd'),
+(12, 'https://vnexpress.net/gerrard-dan-dat-aston-villa-4382874.html', 'Gerrard dẫn dắt Aston Villa', NULL, '20a86a27f8faaedfb7a32de53acf7cad'),
 (13, 'https://vnexpress.net/viet-nam-vs-nhat-ban-4384379-tong-thuat.html', 'Việt Nam thua sát Nhật Bản', NULL, '0'),
 (14, 'https://vnexpress.net/australia-vs-saudi-arabia-4384426-tong-thuat.html', 'Australia thoát thua Saudi Arabia', NULL, '0'),
 (15, 'https://vnexpress.net/hai-vo-si-quyen-anh-tan-gau-trong-luc-so-gang-4384320.html', 'Hai võ sĩ quyền Anh tán gẫu trong lúc so găng', NULL, '0'),
@@ -416,9 +416,9 @@ INSERT INTO `post` (`post_id`, `post_url`, `post_title`, `post_description`, `to
 (369, 'https://vnexpress.net/golf-han-truoc-moc-200-danh-hieu-lpga-tour-4375422.html', 'Golf Hàn trước mốc 200 danh hiệu LPGA Tour', NULL, '0'),
 (370, 'https://vnexpress.net/wenger-khuyen-solskjaer-dung-fred-dau-liverpool-4375228.html', 'Wenger khuyên Solskjaer dùng Fred đấu Liverpool', NULL, '0'),
 (371, 'https://vnexpress.net/roma-thua-1-6-o-cup-chau-au-4375219.html', 'Roma thua 1-6 ở Cup châu Âu', NULL, '0'),
-(372, 'https://vnexpress.net/salah-lap-ky-luc-ghi-ban-lien-tiep-cho-liverpool-4374195.html', 'Salah lập kỷ lục ghi bàn liên tiếp cho Liverpool', NULL, '0'),
-(373, 'https://vnexpress.net/tottenham-thua-tran-dau-o-vong-bang-conference-league-4375209.html', 'Tottenham thua trận đầu ở vòng bảng Conference League', NULL, '0');
+(372, 'https://vnexpress.net/salah-lap-ky-luc-ghi-ban-lien-tiep-cho-liverpool-4374195.html', 'Salah lập kỷ lục ghi bàn liên tiếp cho Liverpool', NULL, '0');
 INSERT INTO `post` (`post_id`, `post_url`, `post_title`, `post_description`, `token`) VALUES
+(373, 'https://vnexpress.net/tottenham-thua-tran-dau-o-vong-bang-conference-league-4375209.html', 'Tottenham thua trận đầu ở vòng bảng Conference League', NULL, '0'),
 (374, 'https://vnexpress.net/arsenal-tuyen-mo-than-dong-5-tuoi-4375224.html', 'Arsenal tuyển mộ thần đồng 5 tuổi', NULL, '0'),
 (375, 'https://vnexpress.net/chelsea-mat-cap-tien-dao-chu-luc-cuoi-tuan-nay-4374712.html', 'Chelsea mất cặp tiền đạo chủ lực cuối tuần này', NULL, '0'),
 (376, 'https://vnexpress.net/khan-gia-duoc-tro-lai-san-my-dinh-4375114.html', 'Khán giả được trở lại sân Mỹ Đình', NULL, '0'),
@@ -509,73 +509,60 @@ INSERT INTO `post` (`post_id`, `post_url`, `post_title`, `post_description`, `to
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Cấu trúc bảng cho bảng `users`
 --
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
-  `name` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `fullname` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `email` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `type` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `password` varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `version` int(11) NOT NULL,
-  `token` varchar(225) COLLATE utf8mb4_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+  `name` varchar(100) NOT NULL,
+  `fullname` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `type` varchar(100) NOT NULL,
+  `password` varchar(250) NOT NULL,
+  `key_user` varchar(20) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `users`
+-- Đang đổ dữ liệu cho bảng `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `fullname`, `email`, `type`, `password`, `version`, `token`) VALUES
-(6123, 'vantruyen', '', '', '', '07a7755748dabf3c8b1dec60ff586ec2', 0, '4812f7177233f67fede98ddee12f9c61'),
-(7456, 'hacker', '', '', '', '41492b14a014c3da4c5fab7335fdc521', 0, '912a0e10cbfeca97ca56e4a03e5c6ad1'),
-(7458, 'loi', '', '', '', '84ab36b2995bb3949db34038a2b24c64', 0, ''),
-(7459, 'Dung', '', '', '', '625d45c587033e8970af8b4e3fdb575c', 0, '');
+INSERT INTO `users` (`id`, `name`, `fullname`, `email`, `type`, `password`, `key_user`) VALUES
+(1, 'admin', 'Admin', 'admin1@gmail.com', 'admin', 'd41d8cd98f00b204e9800998ecf8427e', 'ad'),
+(2, 'user1', 'User1', 'user1@gmail.com', 'user', '24c9e15e52afc47c225b757e7bee1f9d', 'user'),
+(10, 'test', '', '', '', '098f6bcd4621d373cade4e832627b4f6', 'loi'),
+(11, 'Test-add', '', '', '', '098f6bcd4621d373cade4e832627b4f6', 'tuan');
 
 --
--- Indexes for dumped tables
+-- Chỉ mục cho các bảng đã đổ
 --
 
 --
--- Indexes for table `banks`
---
-ALTER TABLE `banks`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `post`
+-- Chỉ mục cho bảng `post`
 --
 ALTER TABLE `post`
   ADD PRIMARY KEY (`post_id`);
 
 --
--- Indexes for table `users`
+-- Chỉ mục cho bảng `users`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT cho các bảng đã đổ
 --
 
 --
--- AUTO_INCREMENT for table `banks`
---
-ALTER TABLE `banks`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `post`
+-- AUTO_INCREMENT cho bảng `post`
 --
 ALTER TABLE `post`
-  MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=482;
+  MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=919;
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT cho bảng `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7462;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
